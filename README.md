@@ -147,18 +147,17 @@ The Elegoo board can be run directly from the Arduino software. Download the Ard
 
 Test that your stepper motors are working by downloading the stepper test code from the "Starter Code" file. It should make your steppers run in a square, wait, and then do it again in an infinite loop. If your stepper motors are screaming and not rotating, please let us know and we can debug.
 
-Now that you have that running, we will upload the real code. Please do the following: 
+Now that you have that running, we will upload the real code. Please do the following: <br/>
 
-`
-git clone https://github.com/krsandwich/DrawBot.git
-cd DrawBot/drawbot_code
-python3 -m venv .env
-python3 -m pip install -r requirements.txt
-`
-Now, open drawbot_arduino and run the sketch making sure to specify the correct port for your arduino. Copy down the port name and put it in line 73 of drawbot.py. Now run the following command:
+
+`git clone https://github.com/krsandwich/DrawBot.git` <br/>
+`cd DrawBot/drawbot_code` <br/>
+`python3 -m venv .env` <br/>
+`python3 -m pip install -r requirements.txt`<br/><br/>
+Now, open drawbot_arduino and run the sketch making sure to specify the correct port for your arduino. Copy down the port name and put it in line 73 of drawbot.py. Now run the following command:<br/><br/>
 `
 python3 drawbot.py
-`
+`<br/><br/>
 You will see a hello world graphic pop up! The black lines represent lines that will be drawn and red lines represent movement. Make sure your motors are connected to power (you should hear an annoying buzz) and that the arduino script is running. Now you can close the Hello World window and the drawbot should start drawing! You'll notice that the current code does not use the servo to lift the pencil during the red line areas. We will update that within the next week OR you can accept the challenge and write the code yourself. If you get it working, send the code to us for a HUGE prize :). 
 
 
