@@ -153,6 +153,7 @@ Now that you have that running, we will upload the real code. Please do the foll
 `git clone https://github.com/krsandwich/DrawBot.git` <br/>
 `cd DrawBot/drawbot_code` <br/>
 `python3 -m venv .env` <br/>
+`source .env/bin/activate` <br/>
 `python3 -m pip install -r requirements.txt`<br/><br/>
 Now, open drawbot_arduino and run the sketch making sure to specify the correct port for your arduino. Copy down the port name and put it in line 73 of drawbot.py. Now run the following command:<br/><br/>
 `
