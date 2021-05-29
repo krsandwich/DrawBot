@@ -1,0 +1,14 @@
+standard orientation is pencil on left side of long bar, fully extended left
+((0,0) is upper left)
+
+(-,-) : pencil to left
+(+,+) : pencil to right
+(+,-) : pencil toward
+(-,+) : pencil away
+
+coordinate space: 1300x4500 steps (65x225 mm)
+
+(+4500, -4500) : 225mm
+(-1300, -1300) : 65mm
+
+20 steps per millimeter
