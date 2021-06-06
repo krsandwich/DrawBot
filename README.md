@@ -81,24 +81,24 @@ Begin by sorting your bolts. It's okay if you have one more or less of each type
 ### Stepper motor
 Begin with the 2 Nema 17 stepper motors, 2 GT2 pulleys, and 2 stepper mounts (pictured below). To push the pulley onto the motor, look closely at the stepper motor axle and notice that they are not perfectly round, they have one flat edge. Line up that flat edge with the flat edge on the 3d printed pulley, flip the whole thing upside down, and push down hard against a flat object until the pulley is flush with the axle. Then, take the stepper mount. Orient the long side in the same direction as the stepper motor wires, and push until it snaps into place. It should hold without any screws. 
 
-<img src="https://code.stanford.edu/lab64/Projects/-/raw/master/Draw_Bot/Photos%20of%20project/2.png" width="500">
-<img src="https://code.stanford.edu/lab64/Projects/-/raw/master/Draw_Bot/Photos%20of%20project/3.png" width="500">
+<img src="Photos%20of%20project/2.png" width="500">
+<img src="Photos%20of%20project/3.png" width="500">
 
 ### Main carriage
 Select 6 M5x20s (20 mm long 5mm bolts), 6 M5 hex nuts, the black wheels, and the two round 3d printed carts. There are hexagonal holes on the insides of the carts, opposite the square lumps -- press the nuts in, they should snap into place. Flip the cart over and attach the wheels to the lumps with the M5x20s. You should leave the bolts just slightly loose; make sure that all wheels can spin freely.
 
-<img src="https://code.stanford.edu/lab64/Projects/-/raw/master/Draw_Bot/Photos%20of%20project/4.jpg" width="500">
-<img src="https://code.stanford.edu/lab64/Projects/-/raw/master/Draw_Bot/Photos%20of%20project/5.jpg" width="500">
+<img src="Photos%20of%20project/4.jpg" width="500">
+<img src="Photos%20of%20project/5.jpg" width="500">
 
 One of the carts has four holes in the centre. The one with the holes is the lower cart, and the other is the upper cart. Take the lower cart, and insert four M5x12s through the center 4 holes, passing from the lumpy side to the inside (bolt head stays on the lumpy side). These will be used to hold pulleys. Slide the tiny spacers onto the M5x12s from the inside of the cart, with the slightly wider side down presing against it.  
 
-<img src="https://code.stanford.edu/lab64/Projects/-/raw/master/Draw_Bot/Photos%20of%20project/7.jpg" width="500">
+<img src="Photos%20of%20project/7.jpg" width="500">
 
 
 Next, you will put in the spacers using four M5x16 bolts, as pictured. Once this is done, place the metal pulleys onto the middle M5x12s. You can then pick up the top cart and place it onto the bottom one. Tighten the M5x16s to connect. 
 
-<img src="https://code.stanford.edu/lab64/Projects/-/raw/master/Draw_Bot/Photos%20of%20project/10.jpg" width="500">
-<img src="https://code.stanford.edu/lab64/Projects/-/raw/master/Draw_Bot/Photos%20of%20project/11.png" width="500">
+<img src="Photos%20of%20project/10.jpg" width="500">
+<img src="Photos%20of%20project/11.png" width="500">
 
 
 ### Attaching to metal
@@ -106,24 +106,24 @@ You will use small metal t-nuts in order to attach to the metal extrusion. The t
 
 Then, you can roll the carriage onto the extrusion. Push the smaller piece of extrusion onto the upper cart. After the carriage is rolled onto the lower extrusion, you can attach the second stepper motor. 
 
-<img src="https://code.stanford.edu/lab64/Projects/-/raw/master/Draw_Bot/Photos%20of%20project/12.png" width="500">
-<img src="https://code.stanford.edu/lab64/Projects/-/raw/master/Draw_Bot/Photos%20of%20project/13.png" width="500">
+<img src="Photos%20of%20project/12.png" width="500">
+<img src="Photos%20of%20project/13.png" width="500">
 
 ### Attaching back pulley
 Attach the last metal pulley to the U-shaped back pulley piece, with a M5x16 bolt passing loosely through the print from below up into the pulley. Then use the same strategy with the t-nuts and two M5x10s to attach the U-shaped back pulley piece to the small piece of metal extrusion. There are four potential holes you can use; I recommend just starting with two bolts diagonally across from each other. 
-<img src="https://code.stanford.edu/lab64/Projects/-/raw/master/Draw_Bot/Photos%20of%20project/thumbnail_IMG_4842.jpeg" width="500">
+<img src="Photos%20of%20project/thumbnail_IMG_4842.jpeg" width="500">
 
 ### Pen mount
 Begin by attaching the servo (in blue, in the photo) to the pen mount (in yellow). You can use the tiny pointy bolts that come with the servo bag, and use your fingers to tighten it as much as you can. Then affix the pen mount (in yellow) to the metal, using 2M5x10s, 2 t-nuts and the same procedure you just used for the back pulley. Next, you will run the belt, before completing the pen mount. 
 
-<img src="https://code.stanford.edu/lab64/Projects/-/raw/master/Draw_Bot/Photos%20of%20project/final_pen_mount.png" width="500">
+<img src="Photos%20of%20project/final_pen_mount.png" width="500">
 
 ### Running the belt
 Running the belt is the trickiest part of the assembly. The belt must run around all of the pulleys in a plus sign, to transmit the motion of the steppers into the carriage. Begin by poking one end of the belt into the stepper mount. There are two parallel slots for the belt, slide one end through with the orientation shown in the diagram. Then cut a length of belt, and slide the opposite end into and out of the carriage in the pattern shown. I recommend getting chopsticks, tweezers, or a fork to grab the belt and move it aorund. If this does not work for you, undo the spacer bolts keeping the upper and lower cart together, loop the belt, and reassemble the carriage. Once you're done, pass it through the second slot in the stepper mount, and trim any extra. Tighten down the spiny piece using the center bolt to clamp the belt in place. 
 
 If you hold the pulleys and twist them, the carriage should move. Moving the motors in the same direction will move the carriage left and right, and moving the motors in opposite directions will move the carriage back and forth. 
 
-![Belt diagram](https://code.stanford.edu/lab64/Projects/-/raw/master/Draw_Bot/Photos%20of%20project/belt.png)
+![Belt diagram](Photos%20of%20project/belt.png)
 
 ### Attaching the pen
 Attach the pen swivel (in light blue in the image in the Pen Mount section) to the pen mount, using 2 M5x12s. The swivel should be able to rotate up and down when the servo turns. Once you're sure that's in place, take any pencil. Clamp it to the pen swivel using 2 M5x16s, using the pen clamp (orange in the image). 
@@ -134,7 +134,7 @@ All electronics will be conected using the breadboard and jumper wires. This is 
 
 ### Stepper motors
 Breadboards are connected horizontally. Gently push the red A4988 onto a breadboard, with each row of pins on a different half of the board. Make sure that the orientation matches the diagram, and link the wires as pictured. Repeat a second time for the second A4988 and second stepper motor, making sure to connect to pins 3&4 for the first and then 12&13 for the second on the elegoo. 
-<img src="https://code.stanford.edu/lab64/Projects/-/raw/master/Draw_Bot/Photos%20of%20project/A4988-Wiring-Diagram.png" width="500">
+<img src="Photos%20of%20project/A4988-Wiring-Diagram.png" width="500">
 
 
 ### Servo
@@ -160,7 +160,4 @@ Now, open drawbot_arduino and run the sketch making sure to specify the correct 
 python3 drawbot.py
 `<br/><br/>
 You will see a hello world graphic pop up! The black lines represent lines that will be drawn and red lines represent movement. Make sure your motors are connected to power (you should hear an annoying buzz) and that the arduino script is running. Now you can close the Hello World window and the drawbot should start drawing! You'll notice that the current code does not use the servo to lift the pencil during the red line areas. We will update that within the next week OR you can accept the challenge and write the code yourself. If you get it working, send the code to us for a HUGE prize :). 
-
-
-
 
