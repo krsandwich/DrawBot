@@ -159,5 +159,5 @@ Now, open drawbot_arduino and run the sketch making sure to specify the correct 
 `
 python3 drawbot.py
 `<br/><br/>
-You will see a hello world graphic pop up! The black lines represent lines that will be drawn and red lines represent movement. Make sure your motors are connected to power (you should hear an annoying buzz) and that the arduino script is running. Now you can close the Hello World window and the drawbot should start drawing! You'll notice that the current code does not use the servo to lift the pencil during the red line areas. We will update that within the next week OR you can accept the challenge and write the code yourself. If you get it working, send the code to us for a HUGE prize :). 
+You will see a hello world graphic pop up! The black lines represent lines that will be drawn and red lines represent movement. Make sure your motors are connected to power (you should hear an annoying buzz) and that the arduino script is running. Now you can close the Hello World window and the drawbot should start drawing!
 
